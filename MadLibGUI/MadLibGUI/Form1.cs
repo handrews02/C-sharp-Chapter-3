@@ -21,5 +21,25 @@ namespace MadLibGUI
         {
 
         }
+
+        private void lblNoun_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String color;
+            String est;
+            String bodyPart;
+            String animal;
+            String noun;
+            String pluralNoun;
+            int num1;
+            int num2;
+            int num3;
+
+            color = ();
+        }
     }
 }
