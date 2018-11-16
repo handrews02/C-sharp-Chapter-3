@@ -39,7 +39,20 @@ namespace MadLibGUI
             int num2;
             int num3;
 
-            color = ();
+            color = (txtColor.Text);
+            est = (txtWordEST.Text);
+            bodyPart = (txtBodyPart.Text);
+            animal = (txtAnimal.Text);
+            noun = (txtNoun.Text);
+            pluralNoun = (txtPluralNoun.Text);
+            num1 = Convert.ToInt32(txtNum1.Text);
+            num2 = Convert.ToInt32(txtNum2.Text);
+            num3 = num1 - num2;
+
+            lblStory.Text = "The " + color + " dragon is the " + est + " dragon of all. It has " + num3 + " " + bodyPart + " and a " + animal + " shaped like a " + noun + ". It loves to eat " + pluralNoun + ", although it will feast on nearly anything."; 
+
+
+
         }
     }
 }

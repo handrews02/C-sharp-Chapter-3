@@ -35,7 +35,6 @@
             this.txtBodyPart = new System.Windows.Forms.TextBox();
             this.txtWordEST = new System.Windows.Forms.TextBox();
             this.txtNum1 = new System.Windows.Forms.TextBox();
-            this.txtNum3 = new System.Windows.Forms.TextBox();
             this.txtNum2 = new System.Windows.Forms.TextBox();
             this.lblStory = new System.Windows.Forms.Label();
             this.lblColor = new System.Windows.Forms.Label();
@@ -46,7 +45,6 @@
             this.lblPluralNoun = new System.Windows.Forms.Label();
             this.lblNum1 = new System.Windows.Forms.Label();
             this.lblNum2 = new System.Windows.Forms.Label();
-            this.lblNum3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -98,13 +96,6 @@
             this.txtNum1.Name = "txtNum1";
             this.txtNum1.Size = new System.Drawing.Size(127, 20);
             this.txtNum1.TabIndex = 6;
-            // 
-            // txtNum3
-            // 
-            this.txtNum3.Location = new System.Drawing.Point(237, 476);
-            this.txtNum3.Name = "txtNum3";
-            this.txtNum3.Size = new System.Drawing.Size(127, 20);
-            this.txtNum3.TabIndex = 7;
             // 
             // txtNum2
             // 
@@ -195,15 +186,6 @@
             this.lblNum2.TabIndex = 17;
             this.lblNum2.Text = "Enter another number";
             // 
-            // lblNum3
-            // 
-            this.lblNum3.AutoSize = true;
-            this.lblNum3.Location = new System.Drawing.Point(75, 479);
-            this.lblNum3.Name = "lblNum3";
-            this.lblNum3.Size = new System.Drawing.Size(101, 13);
-            this.lblNum3.TabIndex = 18;
-            this.lblNum3.Text = "Enter a final number";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(418, 203);
@@ -221,7 +203,6 @@
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(943, 606);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.lblNum3);
             this.Controls.Add(this.lblNum2);
             this.Controls.Add(this.lblNum1);
             this.Controls.Add(this.lblPluralNoun);
@@ -232,7 +213,6 @@
             this.Controls.Add(this.lblColor);
             this.Controls.Add(this.lblStory);
             this.Controls.Add(this.txtNum2);
-            this.Controls.Add(this.txtNum3);
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.txtWordEST);
             this.Controls.Add(this.txtBodyPart);
@@ -258,7 +238,6 @@
         private System.Windows.Forms.TextBox txtBodyPart;
         private System.Windows.Forms.TextBox txtWordEST;
         private System.Windows.Forms.TextBox txtNum1;
-        private System.Windows.Forms.TextBox txtNum3;
         private System.Windows.Forms.TextBox txtNum2;
         private System.Windows.Forms.Label lblStory;
         private System.Windows.Forms.Label lblColor;
@@ -269,7 +248,6 @@
         private System.Windows.Forms.Label lblPluralNoun;
         private System.Windows.Forms.Label lblNum1;
         private System.Windows.Forms.Label lblNum2;
-        private System.Windows.Forms.Label lblNum3;
         private System.Windows.Forms.Button button1;
     }
 }
