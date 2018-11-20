@@ -34,7 +34,7 @@
             this.lblTest4 = new System.Windows.Forms.Label();
             this.lblTest5 = new System.Windows.Forms.Label();
             this.txtTest1 = new System.Windows.Forms.TextBox();
-            this.txttest5 = new System.Windows.Forms.TextBox();
+            this.txtTest5 = new System.Windows.Forms.TextBox();
             this.txtTest4 = new System.Windows.Forms.TextBox();
             this.txtTest3 = new System.Windows.Forms.TextBox();
             this.txtTest2 = new System.Windows.Forms.TextBox();
@@ -94,12 +94,12 @@
             this.txtTest1.Size = new System.Drawing.Size(100, 20);
             this.txtTest1.TabIndex = 5;
             // 
-            // txttest5
+            // txtTest5
             // 
-            this.txttest5.Location = new System.Drawing.Point(305, 223);
-            this.txttest5.Name = "txttest5";
-            this.txttest5.Size = new System.Drawing.Size(100, 20);
-            this.txttest5.TabIndex = 6;
+            this.txtTest5.Location = new System.Drawing.Point(305, 223);
+            this.txtTest5.Name = "txtTest5";
+            this.txtTest5.Size = new System.Drawing.Size(100, 20);
+            this.txtTest5.TabIndex = 6;
             // 
             // txtTest4
             // 
@@ -130,6 +130,7 @@
             this.btnAverage.TabIndex = 10;
             this.btnAverage.Text = "Click here to get your average!";
             this.btnAverage.UseVisualStyleBackColor = true;
+            this.btnAverage.Click += new System.EventHandler(this.btnAverage_Click);
             // 
             // lblAverage
             // 
@@ -149,7 +150,7 @@
             this.Controls.Add(this.txtTest2);
             this.Controls.Add(this.txtTest3);
             this.Controls.Add(this.txtTest4);
-            this.Controls.Add(this.txttest5);
+            this.Controls.Add(this.txtTest5);
             this.Controls.Add(this.txtTest1);
             this.Controls.Add(this.lblTest5);
             this.Controls.Add(this.lblTest4);
@@ -171,7 +172,7 @@
         private System.Windows.Forms.Label lblTest4;
         private System.Windows.Forms.Label lblTest5;
         private System.Windows.Forms.TextBox txtTest1;
-        private System.Windows.Forms.TextBox txttest5;
+        private System.Windows.Forms.TextBox txtTest5;
         private System.Windows.Forms.TextBox txtTest4;
         private System.Windows.Forms.TextBox txtTest3;
         private System.Windows.Forms.TextBox txtTest2;
