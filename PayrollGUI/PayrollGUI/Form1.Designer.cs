@@ -40,10 +40,11 @@
             this.lblFedTaxOut = new System.Windows.Forms.Label();
             this.lblStateTaxOut = new System.Windows.Forms.Label();
             this.lblNetPayOut = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblGrossPay = new System.Windows.Forms.Label();
+            this.lblFdrlTax = new System.Windows.Forms.Label();
+            this.lblStateWth = new System.Windows.Forms.Label();
+            this.lblNetPay = new System.Windows.Forms.Label();
+            this.btnInfo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtName
@@ -141,51 +142,62 @@
             this.lblNetPayOut.Size = new System.Drawing.Size(100, 24);
             this.lblNetPayOut.TabIndex = 11;
             // 
-            // label5
+            // lblGrossPay
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(454, 54);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 12;
-            this.label5.Text = "label5";
+            this.lblGrossPay.AutoSize = true;
+            this.lblGrossPay.Location = new System.Drawing.Point(454, 54);
+            this.lblGrossPay.Name = "lblGrossPay";
+            this.lblGrossPay.Size = new System.Drawing.Size(55, 13);
+            this.lblGrossPay.TabIndex = 12;
+            this.lblGrossPay.Text = "Gross Pay";
             // 
-            // label6
+            // lblFdrlTax
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(454, 108);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "label6";
+            this.lblFdrlTax.AutoSize = true;
+            this.lblFdrlTax.Location = new System.Drawing.Point(454, 108);
+            this.lblFdrlTax.Name = "lblFdrlTax";
+            this.lblFdrlTax.Size = new System.Drawing.Size(119, 13);
+            this.lblFdrlTax.TabIndex = 13;
+            this.lblFdrlTax.Text = "Federal Tax withholding";
             // 
-            // label7
+            // lblStateWth
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(454, 168);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(35, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "label7";
+            this.lblStateWth.AutoSize = true;
+            this.lblStateWth.Location = new System.Drawing.Point(454, 168);
+            this.lblStateWth.Name = "lblStateWth";
+            this.lblStateWth.Size = new System.Drawing.Size(105, 13);
+            this.lblStateWth.TabIndex = 14;
+            this.lblStateWth.Text = "State tax withholding";
             // 
-            // label8
+            // lblNetPay
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(454, 221);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 15;
-            this.label8.Text = "label8";
+            this.lblNetPay.AutoSize = true;
+            this.lblNetPay.Location = new System.Drawing.Point(454, 222);
+            this.lblNetPay.Name = "lblNetPay";
+            this.lblNetPay.Size = new System.Drawing.Size(44, 13);
+            this.lblNetPay.TabIndex = 15;
+            this.lblNetPay.Text = "Net pay";
+            // 
+            // btnInfo
+            // 
+            this.btnInfo.Location = new System.Drawing.Point(307, 316);
+            this.btnInfo.Name = "btnInfo";
+            this.btnInfo.Size = new System.Drawing.Size(181, 81);
+            this.btnInfo.TabIndex = 16;
+            this.btnInfo.Text = "Click to get more information!";
+            this.btnInfo.UseVisualStyleBackColor = true;
+            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.btnInfo);
+            this.Controls.Add(this.lblNetPay);
+            this.Controls.Add(this.lblStateWth);
+            this.Controls.Add(this.lblFdrlTax);
+            this.Controls.Add(this.lblGrossPay);
             this.Controls.Add(this.lblNetPayOut);
             this.Controls.Add(this.lblStateTaxOut);
             this.Controls.Add(this.lblFedTaxOut);
@@ -200,6 +212,7 @@
             this.Controls.Add(this.txtName);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,10 +232,11 @@
         private System.Windows.Forms.Label lblFedTaxOut;
         private System.Windows.Forms.Label lblStateTaxOut;
         private System.Windows.Forms.Label lblNetPayOut;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblGrossPay;
+        private System.Windows.Forms.Label lblFdrlTax;
+        private System.Windows.Forms.Label lblStateWth;
+        private System.Windows.Forms.Label lblNetPay;
+        private System.Windows.Forms.Button btnInfo;
     }
 }
 
